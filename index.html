@@ -10,8 +10,9 @@
     </head>
     <body>
         <div class="conatainer">
-        <div class="loader"></div>
+            <div class="loader"></div>
             <div class="logo">LOREM IPSUM</div>
+            <div id="logo1"></div>
             <div class="square-big"></div>
             <div class="wrapper">
                 <div class="square sq1">
@@ -32,8 +33,14 @@
                 <div class="square sq6">
                     <span class="hide" style="font-size: 8.5em; color: white; text-align: center; oppacity:0.6;" >6</span>
                 </div>
+                <button onclick="myFunction()">Try it</button>
             </div>
-            
         </div>
+        <script>
+        console.log('dupa');
+                        function myFunction() {
+                            document.getElementById("logo1").innerHTML = Math.random();
+                        }
+        </script>
     </body>
 </html>
