@@ -1,0 +1,113 @@
+body {
+    background-color: #303030;
+}
+
+.conatainer {
+    margin-top: 50px;
+    max-width: 1000px;
+    min-height: 420px;
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px solid white;
+}
+
+.square {
+    width: 160px;
+    height: 160px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+    border: 1px solid grey;
+}
+
+.wrapper {
+    margin-top: 40px;
+    width: 1000px;
+    height: 400px;
+}
+
+.square-big {
+    width: 411px;
+    height: 342px;
+    border: 1px solid white;
+    float: right;
+    margin-top: 59px;
+    margin-right: 20px;
+    background-color: #666666;
+}
+
+.square:hover {
+    box-shadow: 0px 2px 12px white;
+    /*border: 1px solid white;*/
+}
+
+.sq1 {
+    background-color: #671B51;
+}
+
+.sq2 {
+    background-color: #666666;
+}
+
+.sq3 {
+    background-color: #3095d3;
+}
+
+.sq4 {
+    background-color: #93c748;
+}
+
+.sq5 {
+    background-color: #ee5a32;
+}
+
+.sq6 {
+    background-color: #D94348
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.logo {
+    font-size: 44px;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+}
+
+.resize {
+    width: 411px;
+    height: 342px;
+}
+
+.loader {
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    position: relative;
+    -webkit-animation-name: example;
+    /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 4s;
+    /* Chrome, Safari, Opera */
+    -webkit-animation-delay: 2s;
+    /* Chrome, Safari, Opera */
+    animation-name: example;
+    animation-duration: 10s;
+    animation-delay: 1s;
+}
+
+
+/* Chrome, Safari, Opera */
+
+@-webkit-keyframes example {
+     0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:970px; top:0px;}
+    50%  {background-color:blue; left:970px; top:500px;}
+    75%  {background-color:green; left:500px; top:50px;}
+    100% {background-color:red; left:0px; top:0px;}
+}
