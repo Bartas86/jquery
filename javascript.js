@@ -1,4 +1,7 @@
-function myFunction() {
-  console.log('dupa');
-    document.getElementById(".logo").innerHTML = Math.random();
-}
+$(document).ready(function() {
+    console.log('dupa');
+
+    function myFunction() {
+        document.getElementById("logo1").innerHTML = Math.random();
+    }
+});
