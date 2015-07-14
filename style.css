@@ -17,7 +17,8 @@ body {
     float: left;
     margin-left: 20px;
     margin-top: 20px;
-    border: 1px solid grey;
+    border: 1px solid gray;
+    
 }
 
 .wrapper {
@@ -73,7 +74,7 @@ body {
     display: block;
 }
 
-.logo, #logo1 {
+.logo, .logo1 {
     font-size: 44px;
     font-weight: 700;
     text-align: center;
